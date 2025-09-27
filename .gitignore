@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Reportes generados
+a1_*.txt
+a2_*.txt
+a3_*.txt
+a4_*.txt
+a5_*.txt
+a6_*.txt
+
+# Carpetas de procesamiento (excepto Files original)
+Clean_Files/
+Words_Files/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Entorno Windows
+Thumbs.db
+desktop.ini
