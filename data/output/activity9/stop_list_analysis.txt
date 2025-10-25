@@ -1,0 +1,71 @@
+ANÁLISIS COMPARATIVO - STOP LIST
+============================================================
+Fecha: 2025-10-25 09:05:26
+============================================================
+
+ESTADÍSTICAS GENERALES:
+----------------------------------------
+Tokens originales: 90,831
+Tokens filtrados: 89,277
+Tokens removidos: 1,554
+Porcentaje removido: 1.7%
+
+ESTADÍSTICAS DE FRECUENCIA:
+----------------------------------------
+Frecuencia total original: 857,723
+Frecuencia total filtrada: 569,129
+Frecuencia removida: 288,594
+Porcentaje de frecuencia removida: 33.6%
+
+TOP 20 TOKENS REMOVIDOS (MÁS FRECUENTES):
+----------------------------------------
+ 1. the: 33,472 veces (395 docs)
+ 2. of: 21,031 veces (392 docs)
+ 3. and: 17,252 veces (384 docs)
+ 4. com: 12,152 veces (188 docs)
+ 5. to: 11,431 veces (383 docs)
+ 6. edu: 10,804 veces (21 docs)
+ 7. in: 10,321 veces (381 docs)
+ 8. net: 8,368 veces (41 docs)
+ 9. az: 7,095 veces (51 docs)
+10. yr: 6,435 veces (108 docs)
+11. pgs: 6,433 veces (106 docs)
+12. fn: 5,905 veces (110 docs)
+13. is: 5,788 veces (325 docs)
+14. for: 4,693 veces (360 docs)
+15. on: 4,429 veces (340 docs)
+16. de: 3,983 veces (136 docs)
+17. es: 3,757 veces (75 docs)
+18. as: 3,593 veces (334 docs)
+19. that: 3,554 veces (304 docs)
+20. hogy: 3,393 veces (42 docs)
+
+TOP 20 TOKENS RESTANTES (MÁS FRECUENTES):
+----------------------------------------
+ 1. examines: 1,076 veces (104 docs)
+ 2. analysis: 1,072 veces (130 docs)
+ 3. egy: 1,059 veces (42 docs)
+ 4. law: 909 veces (181 docs)
+ 5. state: 863 veces (154 docs)
+ 6. ouml: 843 veces (4 docs)
+ 7. nbsp: 774 veces (136 docs)
+ 8. iacute: 771 veces (40 docs)
+ 9. may: 758 veces (148 docs)
+10. political: 682 veces (157 docs)
+11. more: 678 veces (209 docs)
+12. szerint: 676 veces (42 docs)
+13. text: 671 veces (42 docs)
+14. government: 654 veces (132 docs)
+15. otilde: 641 veces (3 docs)
+16. risks: 641 veces (24 docs)
+17. american: 639 veces (144 docs)
+18. csak: 639 veces (42 docs)
+19. azt: 638 veces (43 docs)
+20. mar: 621 veces (52 docs)
+
+IMPACTO POR CATEGORÍAS:
+----------------------------------------
+Muy frecuentes (>1000): 58 tokens
+Frecuentes (100-1000): 91 tokens
+Moderados (10-100): 31 tokens
+Raros (<10): 1374 tokens

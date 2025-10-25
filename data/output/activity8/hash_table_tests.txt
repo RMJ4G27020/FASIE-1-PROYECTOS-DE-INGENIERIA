@@ -1,0 +1,93 @@
+CASOS DE PRUEBA - TABLA HASH
+==================================================
+Fecha: 2025-10-25 09:03:37
+==================================================
+
+PRUEBAS DE FUNCIONALIDAD:
+------------------------------
+1. PRUEBA DE INSERCIÓN Y BÚSQUEDA:
+   ✓ 'bujdosni': {'repetitions': 1, 'documents': 1}
+   ✓ 'comerciales': {'repetitions': 4, 'documents': 3}
+   ✓ 'confucius': {'repetitions': 1, 'documents': 1}
+   ✓ 'feudal': {'repetitions': 4, 'documents': 2}
+   ✓ 'iserintett': {'repetitions': 1, 'documents': 1}
+   ✓ 'merseklodes': {'repetitions': 1, 'documents': 1}
+   ✓ 'nea': {'repetitions': 20, 'documents': 11}
+   ✓ 'qsom': {'repetitions': 1, 'documents': 1}
+   ✓ 'trianon': {'repetitions': 22, 'documents': 8}
+   ✓ 'veheti': {'repetitions': 2, 'documents': 2}
+   ✓ 'avalasztasi': {'repetitions': 3, 'documents': 3}
+   ✓ 'ertekesebb': {'repetitions': 3, 'documents': 3}
+   ✓ 'evekben': {'repetitions': 26, 'documents': 16}
+   ✓ 'mara': {'repetitions': 15, 'documents': 13}
+   ✓ 'meghallgatasokra': {'repetitions': 1, 'documents': 1}
+   ✓ 'szatymazitemplomrongalasrol': {'repetitions': 1, 'documents': 1}
+   ✓ 'admission': {'repetitions': 19, 'documents': 9}
+   ✓ 'decentralized': {'repetitions': 11, 'documents': 2}
+   ✓ 'dusty': {'repetitions': 1, 'documents': 1}
+   ✓ 'emelkedes': {'repetitions': 2, 'documents': 2}
+
+   Resultado: 20/20 pruebas exitosas
+   Tasa de éxito: 100.0%
+
+2. PRUEBA DE MANEJO DE COLISIONES:
+   Slot 0: 10 elementos en cadena
+     - bujdosni
+     - comerciales
+     - confucius
+     - feudal
+     - iserintett
+     - merseklodes
+     - nea
+     - qsom
+     - trianon
+     - veheti
+
+   Slot 1: 6 elementos en cadena
+     - avalasztasi
+     - ertekesebb
+     - evekben
+     - mara
+     - meghallgatasokra
+     - szatymazitemplomrongalasrol
+
+   Slot 2: 10 elementos en cadena
+     - admission
+     - decentralized
+     - dusty
+     - emelkedes
+     - gallaudet
+     - indoka
+     - kerestodaragasztjak
+     - magyaruldozes
+     - posiciona
+     - surety
+
+   Slot 3: 11 elementos en cadena
+     - bombakent
+     - celra
+     - egyetlentokeletes
+     - htm
+     - izraelben
+     - kicsik
+     - kivaltkepp
+     - knifed
+     - kvazi
+     - monlan
+     - szerzetes
+
+   Slot 4: 6 elementos en cadena
+     - ecclesiastics
+     - hisznemcsak
+     - nl
+     - orszagon
+     - sihope
+     - tisztelo
+
+3. PRUEBA DE ELIMINACIÓN:
+   Token a eliminar: 'bujdosni'
+   Valor original: {'repetitions': 1, 'documents': 1}
+   Eliminación exitosa: True
+   Valor después de eliminar: None
+   Resultado: ✓ CORRECTO
+   Elemento restaurado para integridad de datos

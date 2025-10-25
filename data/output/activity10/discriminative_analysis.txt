@@ -1,0 +1,81 @@
+ANÁLISIS DE TOKENS DISCRIMINATIVOS
+============================================================
+Fecha: 2025-10-25 09:07:45
+============================================================
+
+TOP 20 TOKENS POR IDF (MÁS RAROS):
+--------------------------------------------------
+ 1. invites: IDF=6.2265 (1 docs, 0.2%)
+ 2. squi: IDF=6.2265 (1 docs, 0.2%)
+ 3. leallitottaaz: IDF=6.2265 (1 docs, 0.2%)
+ 4. meglatogatasukat: IDF=6.2265 (1 docs, 0.2%)
+ 5. mellekuzemag: IDF=6.2265 (1 docs, 0.2%)
+ 6. szabadsajtorol: IDF=6.2265 (1 docs, 0.2%)
+ 7. atlepettaz: IDF=6.2265 (1 docs, 0.2%)
+ 8. szelsobalos: IDF=6.2265 (1 docs, 0.2%)
+ 9. catton: IDF=6.2265 (1 docs, 0.2%)
+10. concordancia: IDF=6.2265 (1 docs, 0.2%)
+11. nyisd: IDF=6.2265 (1 docs, 0.2%)
+12. lsw: IDF=6.2265 (1 docs, 0.2%)
+13. palomar: IDF=6.2265 (1 docs, 0.2%)
+14. masque: IDF=6.2265 (1 docs, 0.2%)
+15. judicialmente: IDF=6.2265 (1 docs, 0.2%)
+16. merrick: IDF=6.2265 (1 docs, 0.2%)
+17. radiosondes: IDF=6.2265 (1 docs, 0.2%)
+18. terveikben: IDF=6.2265 (1 docs, 0.2%)
+19. azadossagot: IDF=6.2265 (1 docs, 0.2%)
+20. gazberuhazo: IDF=6.2265 (1 docs, 0.2%)
+
+TOP 20 TOKENS POR TF-IDF MÁXIMO:
+--------------------------------------------------
+ 1. frames: Max_TF-IDF=2.308549 (IDF=4.6171)
+ 2. microsoft: Max_TF-IDF=1.870815 (IDF=3.7416)
+ 3. url: Max_TF-IDF=1.870815 (IDF=3.7416)
+ 4. accesswatch: Max_TF-IDF=1.556634 (IDF=6.2265)
+ 5. lubricantes: Max_TF-IDF=1.307984 (IDF=3.9240)
+ 6. aw: Max_TF-IDF=1.281981 (IDF=5.1279)
+ 7. puette: Max_TF-IDF=1.245307 (IDF=6.2265)
+ 8. netshade: Max_TF-IDF=1.229642 (IDF=5.5334)
+ 9. showroom: Max_TF-IDF=1.037756 (IDF=6.2265)
+10. powerpoint: Max_TF-IDF=1.006071 (IDF=5.5334)
+11. imagemap: Max_TF-IDF=0.976480 (IDF=5.5334)
+12. texas: Max_TF-IDF=0.959596 (IDF=2.2753)
+13. barrone: Max_TF-IDF=0.957929 (IDF=6.2265)
+14. crude: Max_TF-IDF=0.922232 (IDF=5.5334)
+15. scar: Max_TF-IDF=0.912724 (IDF=5.5334)
+16. jul: Max_TF-IDF=0.905801 (IDF=3.8286)
+17. minnesota: Max_TF-IDF=0.893367 (IDF=2.7002)
+18. plain: Max_TF-IDF=0.885215 (IDF=3.7416)
+19. automotrices: Max_TF-IDF=0.854654 (IDF=5.1279)
+20. industriales: Max_TF-IDF=0.854654 (IDF=5.1279)
+
+TOP 20 TOKENS MÁS DISCRIMINATIVOS:
+--------------------------------------------------
+ 1. frames: Score=10.553476 (IDF=4.6171, Max_TF-IDF=2.308549)
+ 2. accesswatch: Score=9.673285 (IDF=6.2265, Max_TF-IDF=1.556634)
+ 3. puette: Score=7.738628 (IDF=6.2265, Max_TF-IDF=1.245307)
+ 4. microsoft: Score=6.833892 (IDF=3.7416, Max_TF-IDF=1.870815)
+ 5. url: Score=6.833892 (IDF=3.7416, Max_TF-IDF=1.870815)
+ 6. netshade: Score=6.777195 (IDF=5.5334, Max_TF-IDF=1.229642)
+ 7. aw: Score=6.534926 (IDF=5.1279, Max_TF-IDF=1.281981)
+ 8. showroom: Score=6.448856 (IDF=6.2265, Max_TF-IDF=1.037756)
+ 9. barrone: Score=5.952791 (IDF=6.2265, Max_TF-IDF=0.957929)
+10. powerpoint: Score=5.544978 (IDF=5.5334, Max_TF-IDF=1.006071)
+11. imagemap: Score=5.381890 (IDF=5.5334, Max_TF-IDF=0.976480)
+12. crude: Score=5.082896 (IDF=5.5334, Max_TF-IDF=0.922232)
+13. lubricantes: Score=5.031033 (IDF=3.9240, Max_TF-IDF=1.307984)
+14. scar: Score=5.030495 (IDF=5.5334, Max_TF-IDF=0.912724)
+15. automotrices: Score=4.356618 (IDF=5.1279, Max_TF-IDF=0.854654)
+16. industriales: Score=4.356618 (IDF=5.1279, Max_TF-IDF=0.854654)
+17. pane: Score=4.299238 (IDF=6.2265, Max_TF-IDF=0.691837)
+18. slide: Score=4.072962 (IDF=6.2265, Max_TF-IDF=0.655425)
+19. sticker: Score=4.017619 (IDF=5.5334, Max_TF-IDF=0.728950)
+20. atemi: Score=3.948279 (IDF=6.2265, Max_TF-IDF=0.635361)
+
+ESTADÍSTICAS GENERALES:
+--------------------------------------------------
+Tokens analizados: 89277
+IDF promedio: 5.6375
+IDF máximo: 6.2265
+TF-IDF máximo promedio: 0.008638
+TF-IDF máximo global: 2.308549

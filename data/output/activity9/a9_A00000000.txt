@@ -1,0 +1,37 @@
+REPORTE ACADÉMICO - ACTIVIDAD 9: STOP LIST
+============================================================
+Matrícula: A00000000
+Fecha: 2025-10-25 09:05:26
+Actividad: Filtrado de Stop Words
+============================================================
+
+METODOLOGÍA IMPLEMENTADA:
+----------------------------------------
+• Stop words predefinidas (inglés/español)
+• Stop words basadas en frecuencia y distribución
+• Stop words basadas en patrones y características
+• Filtrado de tokens técnicos y basura
+• Análisis comparativo antes/después
+
+RESULTADOS DEL PROCESAMIENTO:
+----------------------------------------
+Tokens originales: 90,831
+Tokens filtrados: 89,277
+Tokens removidos: 1,554
+Reducción: 1.7%
+Tiempo de procesamiento: 0.363 segundos
+
+BENEFICIOS OBTENIDOS:
+----------------------------------------
+• Diccionario más limpio y relevante
+• Eliminación de ruido y términos irrelevantes
+• Mejor calidad para análisis posteriores
+• Reducción significativa de tamaño
+• Base optimizada para TF-IDF
+
+ARCHIVOS GENERADOS:
+----------------------------------------
+1. stop_words_list.txt - Lista completa de stop words
+2. dictionary_filtered.txt - Diccionario limpio
+3. stop_list_analysis.txt - Análisis comparativo
+4. a9_matricula.txt - Este reporte académico

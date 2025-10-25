@@ -1,0 +1,9 @@
+DOCUMENTACIÓN DE IMPLEMENTACIÓN - TABLA HASH
+============================================================
+CARACTERÍSTICAS IMPLEMENTADAS:
+• Función hash SHA256 para distribución uniforme
+• Manejo de colisiones con encadenamiento separado
+• Operaciones: insertar, buscar, eliminar, verificar existencia
+• Estadísticas de rendimiento y análisis de distribución
+• Redimensionamiento dinámico (preparado para implementar)
+• Comparación de diferentes funciones hash

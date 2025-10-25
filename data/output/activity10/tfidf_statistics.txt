@@ -1,0 +1,25 @@
+ESTADÍSTICAS DETALLADAS TF-IDF
+==================================================
+Fecha: 2025-10-25 09:07:45
+==================================================
+
+ESTADÍSTICAS DE DOCUMENTOS:
+------------------------------
+Total documentos: 506
+Tokens promedio por documento: 611.4
+Documento más largo: 9004 tokens
+Documento más corto: 2 tokens
+
+ESTADÍSTICAS DE IDF:
+------------------------------
+Total tokens con IDF: 89277
+IDF promedio: 5.6375
+IDF máximo: 6.2265
+IDF mínimo: 0.8466
+
+ESTADÍSTICAS DE TF-IDF:
+------------------------------
+Total cálculos TF-IDF: 309,380
+TF-IDF promedio: 0.005497
+TF-IDF máximo: 2.308549
+TF-IDF mínimo: 0.000043

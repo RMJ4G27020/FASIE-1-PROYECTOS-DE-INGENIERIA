@@ -1,0 +1,38 @@
+ESTADÍSTICAS DEL ARCHIVO POSTING
+==================================================
+Total de tokens únicos: 90,831
+Total de ocurrencias: 857,723
+Total de documentos: 506
+Promedio de tokens por documento: 1695.1
+
+TOKEN MÁS FRECUENTE:
+  'the': 33,472 ocurrencias
+  Aparece en 395 documentos
+
+TOKEN MÁS DISTRIBUIDO:
+  'the': aparece en 395 documentos
+  Frecuencia total: 33,472
+
+TOP 10 TOKENS MÁS FRECUENTES:
+   1. the: 33,472 veces (395 docs)
+   2. of: 21,031 veces (392 docs)
+   3. and: 17,252 veces (384 docs)
+   4. com: 12,152 veces (188 docs)
+   5. to: 11,431 veces (383 docs)
+   6. edu: 10,804 veces (21 docs)
+   7. in: 10,321 veces (381 docs)
+   8. net: 8,368 veces (41 docs)
+   9. az: 7,095 veces (51 docs)
+  10. yr: 6,435 veces (108 docs)
+
+DISTRIBUCIÓN DE FRECUENCIAS:
+  1 tokens aparecen 33472 veces
+  1 tokens aparecen 21031 veces
+  1 tokens aparecen 17252 veces
+  1 tokens aparecen 12152 veces
+  1 tokens aparecen 11431 veces
+  1 tokens aparecen 10804 veces
+  1 tokens aparecen 10321 veces
+  1 tokens aparecen 8368 veces
+  1 tokens aparecen 7095 veces
+  1 tokens aparecen 6435 veces

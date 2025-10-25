@@ -1,0 +1,47 @@
+REPORTE ACADÉMICO - ACTIVIDAD 10: TF-IDF WEIGHT TOKENS
+======================================================================
+Matrícula: A00000000
+Fecha: 2025-10-25 09:07:45
+Actividad: Cálculo de Pesos TF-IDF
+======================================================================
+
+METODOLOGÍA TF-IDF IMPLEMENTADA:
+--------------------------------------------------
+• Term Frequency (TF): freq_término / total_términos_documento
+• Inverse Document Frequency (IDF): log(total_docs / docs_con_término)
+• TF-IDF: TF × IDF para medir relevancia de términos
+• Análisis de tokens discriminativos y rankings de documentos
+• Diccionario con pesos en lugar de frecuencias simples
+
+RESULTADOS DEL PROCESAMIENTO:
+--------------------------------------------------
+Documentos procesados: 506
+Tokens únicos analizados: 89277
+Cálculos TF realizados: 309,380
+Cálculos IDF realizados: 89,277
+Cálculos TF-IDF realizados: 309,380
+Tiempo de procesamiento: 10.531 segundos
+
+BENEFICIOS DEL TF-IDF:
+--------------------------------------------------
+• Identificación de términos más relevantes por documento
+• Penalización de términos muy comunes (bajo IDF)
+• Promoción de términos específicos y discriminativos
+• Base para sistemas de recuperación de información
+• Mejora significativa sobre frecuencias simples
+
+ARCHIVOS GENERADOS:
+--------------------------------------------------
+1. dictionary_tfidf.txt - Diccionario con pesos TF-IDF
+2. document_rankings.txt - Rankings de documentos por token
+3. discriminative_analysis.txt - Análisis de tokens discriminativos
+4. tfidf_statistics.txt - Estadísticas detalladas
+5. a10_matricula.txt - Este reporte académico
+
+TOP 5 TOKENS MÁS DISCRIMINATIVOS:
+--------------------------------------------------
+1. 'invites': IDF=6.2265 (1 documentos)
+2. 'squi': IDF=6.2265 (1 documentos)
+3. 'leallitottaaz': IDF=6.2265 (1 documentos)
+4. 'meglatogatasukat': IDF=6.2265 (1 documentos)
+5. 'mellekuzemag': IDF=6.2265 (1 documentos)

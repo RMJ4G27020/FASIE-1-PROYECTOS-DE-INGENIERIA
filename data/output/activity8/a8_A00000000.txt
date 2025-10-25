@@ -1,0 +1,36 @@
+REPORTE ACADÉMICO - ACTIVIDAD 8: HASH TABLE
+============================================================
+Matrícula: A00000000
+Fecha: 2025-10-25 09:03:37
+Actividad: Implementación de Tabla Hash
+============================================================
+
+IMPLEMENTACIÓN REALIZADA:
+----------------------------------------
+• Tabla hash personalizada con encadenamiento separado
+• Función hash usando SHA256 para mejor distribución
+• Manejo automático de colisiones
+• Análisis de rendimiento y estadísticas
+• Casos de prueba automatizados
+
+RESULTADOS DEL PROCESAMIENTO:
+----------------------------------------
+Elementos en la tabla: 90,831
+Tamaño de la tabla: 10,000
+Factor de carga: 9.083
+Colisiones detectadas: 80,834
+Tiempo de procesamiento: 0.898 segundos
+
+EFICIENCIA DEL HASH:
+----------------------------------------
+Slots ocupados: 9,998 de 10,000
+Utilización de memoria: 100.0%
+Longitud promedio de cadena: 9.08
+Longitud máxima de cadena: 23
+
+ARCHIVOS GENERADOS:
+----------------------------------------
+1. hash_table_analysis.txt - Análisis detallado de la tabla
+2. hash_table_tests.txt - Casos de prueba y validación
+3. hash_table_implementation.txt - Detalles de implementación
+4. a8_matricula.txt - Este reporte académico

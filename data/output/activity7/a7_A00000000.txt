@@ -1,0 +1,28 @@
+REPORTE ACADÉMICO - ACTIVIDAD 7: ARCHIVO POSTING
+============================================================
+Matrícula: A00000000
+Fecha: 2025-10-25 09:01:39
+Actividad: Generación de Archivos Posting
+============================================================
+
+RESULTADOS DEL PROCESAMIENTO:
+----------------------------------------
+Archivos HTML procesados: 506
+Tokens únicos encontrados: 90,831
+Total de ocurrencias: 857,723
+Tiempo de procesamiento: 1.367 segundos
+
+ARCHIVOS GENERADOS:
+----------------------------------------
+1. dictionary_posting.txt - Diccionario con 3 columnas
+2. posting_list.txt - Lista de documentos por token
+3. posting_stats.txt - Estadísticas resumidas
+4. a7_matricula.txt - Este reporte
+
+TOKENS MÁS RELEVANTES:
+----------------------------------------
+1. 'the': 33,472 veces en 395 documentos
+2. 'of': 21,031 veces en 392 documentos
+3. 'and': 17,252 veces en 384 documentos
+4. 'com': 12,152 veces en 188 documentos
+5. 'to': 11,431 veces en 383 documentos
