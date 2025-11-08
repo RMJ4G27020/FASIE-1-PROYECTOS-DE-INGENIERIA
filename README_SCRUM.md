@@ -7,6 +7,7 @@
 - [Sprint 3: Weight Tokens y Semántica](#sprint-3-weight-tokens-y-semántica)
 - [Métricas del Proyecto](#métricas-del-proyecto)
 - [Gráfica de Velocidad](#gráfica-de-velocidad)
+<img width="922" height="548" alt="image" src="https://github.com/user-attachments/assets/807f2a34-76b1-4838-8cc5-3cddf77e637f" />
 
 ---
 
