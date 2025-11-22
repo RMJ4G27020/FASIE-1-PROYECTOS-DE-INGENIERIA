@@ -1,0 +1,35 @@
+================================================================================
+FASE 5 - ACTIVITY 15: RESULTADOS DE PRUEBA DE CARGA
+================================================================================
+
+Fecha: 2025-11-13 12:28:49
+
+{
+  "test_config": {
+    "num_users": 25,
+    "duration_minutes": 15,
+    "max_response_time": 2.0
+  },
+  "duration_seconds": 314.9114167690277,
+  "total_requests": 1502,
+  "successful_requests": 1502,
+  "failed_requests": 0,
+  "success_rate": 100.0,
+  "requests_per_second": 4.769595257645563,
+  "response_times": {
+    "min": 2.019890069961548,
+    "max": 2.9904768466949463,
+    "mean": 2.143883177030896,
+    "median": 2.112917184829712,
+    "stdev": 0.10352604094199508,
+    "percentile_95": 2.360011339187622,
+    "percentile_99": 2.551091194152832,
+    "below_2s": 0.0
+  },
+  "system_metrics": {
+    "cpu_avg": 16.863035019455253,
+    "cpu_max": 60.1,
+    "memory_avg": 76.43774319066148,
+    "memory_max": 79.6
+  }
+}

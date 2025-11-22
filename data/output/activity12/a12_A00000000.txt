@@ -1,0 +1,311 @@
+ACTIVIDAD 12 - LOG DE BUSQUEDAS
+================================================================================
+Matricula: A00000000
+Fecha: 2025-11-13 11:57:28
+Total de busquedas: 12
+================================================================================
+
+Tiempo de carga (con stop list): 0.467108 segundos
+Tiempo de carga (sin stop list): 0.557086 segundos
+
+
+================================================================================
+BUSQUEDA #1: Gauch
+Tokens: gauch
+================================================================================
+
+CON STOP LIST:
+  Tiempo de busqueda: 0.000006 segundos
+  Documentos encontrados: 2
+  Documentos:
+    1. hard.html (tfidf: 1.8023)
+    2. simple.html (tfidf: 1.8023)
+
+SIN STOP LIST:
+  Tiempo de busqueda: 0.000004 segundos
+  Documentos encontrados: 2
+  Documentos:
+    1. hard.html (tfidf: 1.8023)
+    2. simple.html (tfidf: 1.8023)
+
+================================================================================
+BUSQUEDA #2: elephants
+Tokens: elephants
+================================================================================
+
+CON STOP LIST:
+  Tiempo de busqueda: 0.000003 segundos
+  Documentos encontrados: 0
+  No se encontraron documentos
+
+SIN STOP LIST:
+  Tiempo de busqueda: 0.000001 segundos
+  Documentos encontrados: 0
+  No se encontraron documentos
+
+================================================================================
+BUSQUEDA #3: CSCE
+Tokens: csce
+================================================================================
+
+CON STOP LIST:
+  Tiempo de busqueda: 0.000004 segundos
+  Documentos encontrados: 1
+  Documentos:
+    1. medium.html (tfidf: 2.7042)
+
+SIN STOP LIST:
+  Tiempo de busqueda: 0.000003 segundos
+  Documentos encontrados: 1
+  Documentos:
+    1. medium.html (tfidf: 2.0281)
+
+================================================================================
+BUSQUEDA #4: Arkansas
+Tokens: arkansas
+================================================================================
+
+CON STOP LIST:
+  Tiempo de busqueda: 0.000003 segundos
+  Documentos encontrados: 33
+  Documentos:
+    1. 399.html (tfidf: 0.8892)
+    2. 400.html (tfidf: 0.8892)
+    3. 411.html (tfidf: 0.8892)
+    4. 413.html (tfidf: 0.8892)
+    5. 402.html (tfidf: 0.7904)
+    6. 404.html (tfidf: 0.7904)
+    7. 406.html (tfidf: 0.7904)
+    8. 407.html (tfidf: 0.7904)
+    9. 409.html (tfidf: 0.7904)
+    10. 410.html (tfidf: 0.7904)
+    ... y 23 mas
+
+SIN STOP LIST:
+  Tiempo de busqueda: 0.000001 segundos
+  Documentos encontrados: 33
+  Documentos:
+    1. 399.html (tfidf: 0.7410)
+    2. 400.html (tfidf: 0.7410)
+    3. 401.html (tfidf: 0.7410)
+    4. 402.html (tfidf: 0.7410)
+    5. 403.html (tfidf: 0.7410)
+    6. 404.html (tfidf: 0.7410)
+    7. 405.html (tfidf: 0.7410)
+    8. 406.html (tfidf: 0.7410)
+    9. 407.html (tfidf: 0.7410)
+    10. 409.html (tfidf: 0.7410)
+    ... y 23 mas
+
+================================================================================
+BUSQUEDA #5: gift
+Tokens: gift
+================================================================================
+
+CON STOP LIST:
+  Tiempo de busqueda: 0.000003 segundos
+  Documentos encontrados: 10
+  Documentos:
+    1. 180.html (tfidf: 0.9738)
+    2. 324.html (tfidf: 0.9683)
+    3. 051.html (tfidf: 0.9586)
+    4. 149.html (tfidf: 0.9586)
+    5. 026.html (tfidf: 0.9129)
+    6. 074.html (tfidf: 0.9129)
+    7. 397.html (tfidf: 0.9104)
+    8. 298.html (tfidf: 0.8779)
+    9. 383.html (tfidf: 0.8682)
+    10. 043.html (tfidf: 0.8578)
+
+SIN STOP LIST:
+  Tiempo de busqueda: 0.000002 segundos
+  Documentos encontrados: 10
+  Documentos:
+    1. 180.html (tfidf: 0.9738)
+    2. 324.html (tfidf: 0.9683)
+    3. 149.html (tfidf: 0.9586)
+    4. 051.html (tfidf: 0.9129)
+    5. 397.html (tfidf: 0.8735)
+    6. 074.html (tfidf: 0.8691)
+    7. 026.html (tfidf: 0.8623)
+    8. 383.html (tfidf: 0.8552)
+    9. 298.html (tfidf: 0.8541)
+    10. 043.html (tfidf: 0.8541)
+
+================================================================================
+BUSQUEDA #6: abcdef
+Tokens: abcdef
+================================================================================
+
+CON STOP LIST:
+  Tiempo de busqueda: 0.000002 segundos
+  Documentos encontrados: 0
+  No se encontraron documentos
+
+SIN STOP LIST:
+  Tiempo de busqueda: 0.000001 segundos
+  Documentos encontrados: 0
+  No se encontraron documentos
+
+================================================================================
+BUSQUEDA #7: 20
+Tokens: 20
+================================================================================
+
+CON STOP LIST:
+  Tiempo de busqueda: 0.000002 segundos
+  Documentos encontrados: 0
+  No se encontraron documentos
+
+SIN STOP LIST:
+  Tiempo de busqueda: 0.000001 segundos
+  Documentos encontrados: 0
+  No se encontraron documentos
+
+================================================================================
+BUSQUEDA #8: 20.07
+Tokens: 20, 07
+================================================================================
+
+CON STOP LIST:
+  Tiempo de busqueda: 0.000012 segundos
+  Documentos encontrados: 0
+  No se encontraron documentos
+
+SIN STOP LIST:
+  Tiempo de busqueda: 0.000003 segundos
+  Documentos encontrados: 0
+  No se encontraron documentos
+
+================================================================================
+BUSQUEDA #9: 123-456-7890
+Tokens: 123, 456, 7890
+================================================================================
+
+CON STOP LIST:
+  Tiempo de busqueda: 0.000005 segundos
+  Documentos encontrados: 0
+  No se encontraron documentos
+
+SIN STOP LIST:
+  Tiempo de busqueda: 0.000001 segundos
+  Documentos encontrados: 0
+  No se encontraron documentos
+
+================================================================================
+BUSQUEDA #10: lawyer consumers
+Tokens: lawyer, consumers
+================================================================================
+
+CON STOP LIST:
+  Tiempo de busqueda: 0.000045 segundos
+  Documentos encontrados: 27
+  Documentos:
+    1. 395.html (score: 1.7798)
+    2. 386.html (score: 1.3633)
+    3. 445.html (score: 1.0845)
+    4. 087.html (score: 0.9659)
+    5. 207.html (score: 0.9467)
+    6. 230.html (score: 0.9022)
+    7. 387.html (score: 0.8927)
+    8. 289.html (score: 0.8775)
+    9. 389.html (score: 0.8745)
+    10. 381.html (score: 0.8698)
+    ... y 17 mas
+
+SIN STOP LIST:
+  Tiempo de busqueda: 0.000043 segundos
+  Documentos encontrados: 27
+  Documentos:
+    1. 395.html (score: 1.7798)
+    2. 386.html (score: 1.0917)
+    3. 445.html (score: 0.9003)
+    4. 230.html (score: 0.8779)
+    5. 207.html (score: 0.8682)
+    6. 387.html (score: 0.8670)
+    7. 389.html (score: 0.8575)
+    8. 289.html (score: 0.8557)
+    9. 378.html (score: 0.8554)
+    10. 381.html (score: 0.8553)
+    ... y 17 mas
+
+================================================================================
+BUSQUEDA #11: garden computer
+Tokens: garden, computer
+================================================================================
+
+CON STOP LIST:
+  Tiempo de busqueda: 0.000062 segundos
+  Documentos encontrados: 53
+  Documentos:
+    1. 146.html (score: 1.3808)
+    2. 435.html (score: 1.3639)
+    3. 433.html (score: 1.3630)
+    4. 434.html (score: 1.3625)
+    5. 060.html (score: 1.0414)
+    6. 109.html (score: 0.9353)
+    7. 307.html (score: 0.9238)
+    8. 335.html (score: 0.8868)
+    9. 154.html (score: 0.8591)
+    10. 299.html (score: 0.8517)
+    ... y 43 mas
+
+SIN STOP LIST:
+  Tiempo de busqueda: 0.000041 segundos
+  Documentos encontrados: 53
+  Documentos:
+    1. 146.html (score: 1.3588)
+    2. 433.html (score: 1.3527)
+    3. 435.html (score: 1.3526)
+    4. 434.html (score: 1.3526)
+    5. 109.html (score: 0.8675)
+    6. 307.html (score: 0.8422)
+    7. 154.html (score: 0.8409)
+    8. 335.html (score: 0.8405)
+    9. 338.html (score: 0.8360)
+    10. 299.html (score: 0.8353)
+    ... y 43 mas
+
+================================================================================
+BUSQUEDA #12: United States laws
+Tokens: united, states, laws
+================================================================================
+
+CON STOP LIST:
+  Tiempo de busqueda: 0.000152 segundos
+  Documentos encontrados: 153
+  Documentos:
+    1. 384.html (score: 1.5475)
+    2. 289.html (score: 1.3610)
+    3. 333.html (score: 1.3222)
+    4. 276.html (score: 1.2930)
+    5. 235.html (score: 1.2763)
+    6. 159.html (score: 1.2691)
+    7. 290.html (score: 1.2669)
+    8. 243.html (score: 1.2593)
+    9. 238.html (score: 1.2571)
+    10. 382.html (score: 1.2570)
+    ... y 143 mas
+
+SIN STOP LIST:
+  Tiempo de busqueda: 0.000124 segundos
+  Documentos encontrados: 153
+  Documentos:
+    1. 384.html (score: 1.3588)
+    2. 159.html (score: 1.2160)
+    3. 290.html (score: 1.1597)
+    4. 289.html (score: 1.1457)
+    5. 388.html (score: 1.1440)
+    6. 189.html (score: 1.1433)
+    7. 292.html (score: 1.1408)
+    8. 387.html (score: 1.1403)
+    9. 238.html (score: 1.1401)
+    10. 382.html (score: 1.1390)
+    ... y 143 mas
+
+================================================================================
+RESUMEN FINAL
+================================================================================
+Total de busquedas realizadas: 12
+Tiempo total de busqueda: 0.000525 segundos
+Tiempo promedio por busqueda: 0.000022 segundos

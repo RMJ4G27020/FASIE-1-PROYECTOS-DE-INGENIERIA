@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motor de Búsqueda - Fase 5</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 40px;
+            padding: 20px;
+        }
+        
+        .header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        
+        .search-box {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            margin-bottom: 30px;
+        }
+        
+        .search-form {
+            display: flex;
+            gap: 10px;
+        }
+        
+        .search-input {
+            flex: 1;
+            padding: 15px 20px;
+            font-size: 1.1em;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+        
+        .search-input:focus {
+            border-color: #667eea;
+        }
+        
+        .search-button {
+            padding: 15px 40px;
+            font-size: 1.1em;
+            background: #667eea;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background 0.3s;
+            font-weight: bold;
+        }
+        
+        .search-button:hover {
+            background: #5568d3;
+        }
+        
+        .search-button:active {
+            transform: scale(0.98);
+        }
+        
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 20px;
+            color: white;
+            font-size: 1.2em;
+        }
+        
+        .loading.active {
+            display: block;
+        }
+        
+        .results-container {
+            display: none;
+        }
+        
+        .results-container.active {
+            display: block;
+        }
+        
+        .results-info {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .results-info h3 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        
+        .results-stats {
+            display: flex;
+            gap: 30px;
+            font-size: 0.95em;
+            color: #666;
+        }
+        
+        .result-item {
+            background: white;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        .result-item:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        }
+        
+        .result-rank {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9em;
+            margin-bottom: 10px;
+        }
+        
+        .result-title {
+            font-size: 1.3em;
+            color: #1a0dab;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 5px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        
+        .result-title:hover {
+            text-decoration: underline;
+            color: #0d47a1;
+            transform: translateX(5px);
+        }
+        
+        .result-score {
+            color: #666;
+            font-size: 0.9em;
+        }
+        
+        .no-results {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            text-align: center;
+            color: #666;
+        }
+        
+        .error-message {
+            background: #fee;
+            color: #c33;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .footer {
+            text-align: center;
+            color: white;
+            margin-top: 40px;
+            opacity: 0.8;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        .spinner {
+            border: 4px solid rgba(255,255,255,0.3);
+            border-top: 4px solid white;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🔍 Motor de Búsqueda</h1>
+            <p>Fase 5: Web Interface - Proyecto de Ingeniería de Software</p>
+        </div>
+        
+        <div class="search-box">
+            <form id="searchForm" class="search-form">
+                <input 
+                    type="text" 
+                    id="searchInput" 
+                    class="search-input" 
+                    placeholder="Buscar documentos... (ej: Arkansas, lawyer consumers, United States laws)"
+                    autofocus
+                >
+                <button type="submit" class="search-button">Buscar</button>
+            </form>
+        </div>
+        
+        <div id="loading" class="loading">
+            <div class="spinner"></div>
+            <p>Buscando en 506 documentos...</p>
+        </div>
+        
+        <div id="resultsContainer" class="results-container">
+            <div class="results-info">
+                <h3>Resultados para: "<span id="queryText"></span>"</h3>
+                <div class="results-stats">
+                    <span>📊 <strong id="totalResults">0</strong> documentos encontrados</span>
+                    <span>⏱️ Tiempo: <strong id="searchTime">0</strong> segundos</span>
+                    <span>👁️ Mostrando: <strong id="showingResults">0</strong> resultados</span>
+                </div>
+            </div>
+            
+            <div id="errorMessage" class="error-message" style="display: none;"></div>
+            
+            <div id="resultsList"></div>
+            
+            <div id="noResults" class="no-results" style="display: none;">
+                <h3>😕 No se encontraron resultados</h3>
+                <p>Intenta con otros términos de búsqueda</p>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>Implementado con Flask + TF-IDF Ranking | Motor de Búsqueda Optimizado</p>
+            <p>Tokens indexados: 89,277 | Documentos: 506</p>
+        </div>
+    </div>
+    
+    <script>
+        const searchForm = document.getElementById('searchForm');
+        const searchInput = document.getElementById('searchInput');
+        const loading = document.getElementById('loading');
+        const resultsContainer = document.getElementById('resultsContainer');
+        const resultsList = document.getElementById('resultsList');
+        const queryText = document.getElementById('queryText');
+        const totalResults = document.getElementById('totalResults');
+        const searchTime = document.getElementById('searchTime');
+        const showingResults = document.getElementById('showingResults');
+        const noResults = document.getElementById('noResults');
+        const errorMessage = document.getElementById('errorMessage');
+        
+        searchForm.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            const query = searchInput.value.trim();
+            
+            if (!query) {
+                alert('Por favor ingrese un término de búsqueda');
+                return;
+            }
+            
+            // Mostrar loading
+            loading.classList.add('active');
+            resultsContainer.classList.remove('active');
+            errorMessage.style.display = 'none';
+            
+            try {
+                // Hacer petición al servidor
+                const formData = new FormData();
+                formData.append('query', query);
+                
+                const response = await fetch('/search', {
+                    method: 'POST',
+                    body: formData
+                });
+                
+                const data = await response.json();
+                
+                // Ocultar loading
+                loading.classList.remove('active');
+                
+                if (!data.success) {
+                    errorMessage.textContent = data.error;
+                    errorMessage.style.display = 'block';
+                    resultsContainer.classList.add('active');
+                    return;
+                }
+                
+                // Mostrar resultados
+                displayResults(data);
+                
+            } catch (error) {
+                loading.classList.remove('active');
+                errorMessage.textContent = 'Error de conexión con el servidor';
+                errorMessage.style.display = 'block';
+                resultsContainer.classList.add('active');
+            }
+        });
+        
+        function displayResults(data) {
+            // Actualizar información
+            queryText.textContent = data.query;
+            totalResults.textContent = data.total_results;
+            searchTime.textContent = data.search_time;
+            showingResults.textContent = data.showing;
+            
+            // Limpiar resultados anteriores
+            resultsList.innerHTML = '';
+            
+            if (data.results.length === 0) {
+                noResults.style.display = 'block';
+            } else {
+                noResults.style.display = 'none';
+                
+                // Crear elementos de resultados
+                data.results.forEach(result => {
+                    const resultItem = document.createElement('div');
+                    resultItem.className = 'result-item';
+                    
+                    // Agregar palabras de búsqueda al URL para resaltado
+                    const highlightUrl = `${result.url}?highlight=${encodeURIComponent(data.tokens.join(','))}`;
+                    
+                    resultItem.innerHTML = `
+                        <span class="result-rank">#${result.rank}</span>
+                        <a href="${highlightUrl}" class="result-title" target="_blank" title="Click para ver el documento completo con las palabras resaltadas">
+                            📄 ${result.document}
+                        </a>
+                        <div class="result-score">
+                            ⭐ Relevancia: ${result.score} (TF-IDF)
+                        </div>
+                    `;
+                    
+                    resultsList.appendChild(resultItem);
+                });
+            }
+            
+            // Mostrar contenedor de resultados
+            resultsContainer.classList.add('active');
+        }
+    </script>
+</body>
+</html>

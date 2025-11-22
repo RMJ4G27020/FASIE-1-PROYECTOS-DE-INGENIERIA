@@ -1,0 +1,538 @@
+{
+  "summary": {
+    "test_config": {
+      "num_users": 5,
+      "duration_minutes": 1,
+      "max_response_time": 2.0
+    },
+    "duration_seconds": 63.92624473571777,
+    "total_requests": 93,
+    "successful_requests": 93,
+    "failed_requests": 0,
+    "success_rate": 100.0,
+    "requests_per_second": 1.454801551138788,
+    "response_times": {
+      "min": 2.041579484939575,
+      "max": 2.4221718311309814,
+      "mean": 2.1272177875682874,
+      "median": 2.1005001068115234,
+      "stdev": 0.08342859976642542,
+      "percentile_95": 2.321779727935791,
+      "percentile_99": 2.4221718311309814,
+      "below_2s": 0.0
+    },
+    "system_metrics": {
+      "cpu_avg": 12.314545454545454,
+      "cpu_max": 30.0,
+      "memory_avg": 76.9,
+      "memory_max": 78.3
+    }
+  },
+  "timeline": {
+    "0": {
+      "requests": 0,
+      "response_times": [],
+      "cpu_percent": 17.0,
+      "memory_percent": 77.4
+    },
+    "1": {
+      "requests": 0,
+      "response_times": [],
+      "cpu_percent": 16.7,
+      "memory_percent": 77.3
+    },
+    "2": {
+      "requests": 5,
+      "response_times": [
+        2.055856466293335,
+        2.134868860244751,
+        2.109961986541748,
+        2.1330082416534424,
+        2.3316702842712402
+      ],
+      "cpu_percent": 30.0,
+      "memory_percent": 78.3
+    },
+    "3": {
+      "requests": 0,
+      "response_times": [],
+      "cpu_percent": 19.6,
+      "memory_percent": 78.2
+    },
+    "4": {
+      "requests": 0,
+      "response_times": [],
+      "cpu_percent": 14.5,
+      "memory_percent": 78.3
+    },
+    "5": {
+      "requests": 4,
+      "response_times": [
+        2.1157467365264893,
+        2.2159619331359863,
+        2.4221718311309814,
+        2.110361099243164
+      ],
+      "cpu_percent": 29.2,
+      "memory_percent": 78.3
+    },
+    "6": {
+      "requests": 1,
+      "response_times": [
+        2.1014420986175537
+      ],
+      "cpu_percent": 10.7,
+      "memory_percent": 78.2
+    },
+    "7": {
+      "requests": 0,
+      "response_times": [],
+      "cpu_percent": 17.1,
+      "memory_percent": 78.3
+    },
+    "8": {
+      "requests": 1,
+      "response_times": [
+        2.2869033813476562
+      ],
+      "cpu_percent": 14.0,
+      "memory_percent": 78.3
+    },
+    "9": {
+      "requests": 4,
+      "response_times": [
+        2.122584342956543,
+        2.059722661972046,
+        2.088189125061035,
+        2.094287157058716
+      ],
+      "cpu_percent": 9.6,
+      "memory_percent": 77.2
+    },
+    "11": {
+      "requests": 1,
+      "response_times": [
+        2.1000173091888428
+      ],
+      "cpu_percent": 4.7,
+      "memory_percent": 77.6
+    },
+    "12": {
+      "requests": 3,
+      "response_times": [
+        2.0655391216278076,
+        2.2901523113250732,
+        2.1087656021118164
+      ],
+      "cpu_percent": 13.2,
+      "memory_percent": 77.6
+    },
+    "13": {
+      "requests": 1,
+      "response_times": [
+        2.0611977577209473
+      ],
+      "cpu_percent": 12.9,
+      "memory_percent": 77.6
+    },
+    "14": {
+      "requests": 0,
+      "response_times": [],
+      "cpu_percent": 8.3,
+      "memory_percent": 77.6
+    },
+    "15": {
+      "requests": 3,
+      "response_times": [
+        2.285194158554077,
+        2.125086545944214,
+        2.043811559677124
+      ],
+      "cpu_percent": 12.9,
+      "memory_percent": 77.6
+    },
+    "16": {
+      "requests": 2,
+      "response_times": [
+        2.076385498046875,
+        2.109330654144287
+      ],
+      "cpu_percent": 20.5,
+      "memory_percent": 77.4
+    },
+    "17": {
+      "requests": 0,
+      "response_times": [],
+      "cpu_percent": 12.4,
+      "memory_percent": 77.3
+    },
+    "18": {
+      "requests": 2,
+      "response_times": [
+        2.138368606567383,
+        2.3028268814086914
+      ],
+      "cpu_percent": 8.0,
+      "memory_percent": 77.4
+    },
+    "19": {
+      "requests": 2,
+      "response_times": [
+        2.0874698162078857,
+        2.0778450965881348
+      ],
+      "cpu_percent": 21.5,
+      "memory_percent": 77.3
+    },
+    "20": {
+      "requests": 1,
+      "response_times": [
+        2.0974338054656982
+      ],
+      "cpu_percent": 13.1,
+      "memory_percent": 77.3
+    },
+    "21": {
+      "requests": 2,
+      "response_times": [
+        2.1309547424316406,
+        2.321779727935791
+      ],
+      "cpu_percent": 0,
+      "memory_percent": 0
+    },
+    "22": {
+      "requests": 2,
+      "response_times": [
+        2.10422945022583,
+        2.129258632659912
+      ],
+      "cpu_percent": 4.7,
+      "memory_percent": 77.3
+    },
+    "23": {
+      "requests": 0,
+      "response_times": [],
+      "cpu_percent": 6.5,
+      "memory_percent": 77.3
+    },
+    "24": {
+      "requests": 2,
+      "response_times": [
+        2.1087465286254883,
+        2.294949531555176
+      ],
+      "cpu_percent": 13.7,
+      "memory_percent": 77.2
+    },
+    "25": {
+      "requests": 3,
+      "response_times": [
+        2.1627767086029053,
+        2.1585772037506104,
+        2.1005001068115234
+      ],
+      "cpu_percent": 8.1,
+      "memory_percent": 77.3
+    },
+    "26": {
+      "requests": 0,
+      "response_times": [],
+      "cpu_percent": 5.7,
+      "memory_percent": 77.1
+    },
+    "27": {
+      "requests": 1,
+      "response_times": [
+        2.2668027877807617
+      ],
+      "cpu_percent": 4.1,
+      "memory_percent": 76.9
+    },
+    "28": {
+      "requests": 4,
+      "response_times": [
+        2.0804836750030518,
+        2.041579484939575,
+        2.1347103118896484,
+        2.0996944904327393
+      ],
+      "cpu_percent": 5.0,
+      "memory_percent": 77.0
+    },
+    "29": {
+      "requests": 0,
+      "response_times": [],
+      "cpu_percent": 12.3,
+      "memory_percent": 77.0
+    },
+    "30": {
+      "requests": 0,
+      "response_times": [],
+      "cpu_percent": 8.7,
+      "memory_percent": 77.0
+    },
+    "31": {
+      "requests": 3,
+      "response_times": [
+        2.0596585273742676,
+        2.2624218463897705,
+        2.057866096496582
+      ],
+      "cpu_percent": 11.3,
+      "memory_percent": 77.1
+    },
+    "32": {
+      "requests": 2,
+      "response_times": [
+        2.0471763610839844,
+        2.113722085952759
+      ],
+      "cpu_percent": 0,
+      "memory_percent": 0
+    },
+    "33": {
+      "requests": 0,
+      "response_times": [],
+      "cpu_percent": 5.9,
+      "memory_percent": 77.1
+    },
+    "34": {
+      "requests": 2,
+      "response_times": [
+        2.07051944732666,
+        2.0538201332092285
+      ],
+      "cpu_percent": 14.4,
+      "memory_percent": 76.7
+    },
+    "35": {
+      "requests": 3,
+      "response_times": [
+        2.060762405395508,
+        2.124382734298706,
+        2.1083121299743652
+      ],
+      "cpu_percent": 7.4,
+      "memory_percent": 76.3
+    },
+    "36": {
+      "requests": 0,
+      "response_times": [],
+      "cpu_percent": 7.1,
+      "memory_percent": 76.3
+    },
+    "37": {
+      "requests": 2,
+      "response_times": [
+        2.09853196144104,
+        2.1394360065460205
+      ],
+      "cpu_percent": 15.9,
+      "memory_percent": 76.3
+    },
+    "38": {
+      "requests": 1,
+      "response_times": [
+        2.0673410892486572
+      ],
+      "cpu_percent": 13.6,
+      "memory_percent": 76.3
+    },
+    "39": {
+      "requests": 2,
+      "response_times": [
+        2.055161476135254,
+        2.095398187637329
+      ],
+      "cpu_percent": 9.6,
+      "memory_percent": 76.3
+    },
+    "40": {
+      "requests": 0,
+      "response_times": [],
+      "cpu_percent": 17.7,
+      "memory_percent": 76.3
+    },
+    "41": {
+      "requests": 3,
+      "response_times": [
+        2.094787359237671,
+        2.129361391067505,
+        2.092510461807251
+      ],
+      "cpu_percent": 9.6,
+      "memory_percent": 76.3
+    },
+    "42": {
+      "requests": 1,
+      "response_times": [
+        2.0548481941223145
+      ],
+      "cpu_percent": 9.6,
+      "memory_percent": 76.3
+    },
+    "43": {
+      "requests": 1,
+      "response_times": [
+        2.1052958965301514
+      ],
+      "cpu_percent": 0,
+      "memory_percent": 0
+    },
+    "44": {
+      "requests": 2,
+      "response_times": [
+        2.0665810108184814,
+        2.125750780105591
+      ],
+      "cpu_percent": 18.4,
+      "memory_percent": 76.3
+    },
+    "45": {
+      "requests": 2,
+      "response_times": [
+        2.322943687438965,
+        2.3331825733184814
+      ],
+      "cpu_percent": 10.2,
+      "memory_percent": 75.9
+    },
+    "46": {
+      "requests": 0,
+      "response_times": [],
+      "cpu_percent": 8.2,
+      "memory_percent": 75.9
+    },
+    "47": {
+      "requests": 2,
+      "response_times": [
+        2.1368110179901123,
+        2.066227912902832
+      ],
+      "cpu_percent": 8.9,
+      "memory_percent": 75.9
+    },
+    "48": {
+      "requests": 3,
+      "response_times": [
+        2.105024814605713,
+        2.284456253051758,
+        2.0550246238708496
+      ],
+      "cpu_percent": 12.2,
+      "memory_percent": 75.9
+    },
+    "49": {
+      "requests": 0,
+      "response_times": [],
+      "cpu_percent": 13.2,
+      "memory_percent": 75.9
+    },
+    "50": {
+      "requests": 1,
+      "response_times": [
+        2.068420886993408
+      ],
+      "cpu_percent": 13.4,
+      "memory_percent": 75.9
+    },
+    "51": {
+      "requests": 2,
+      "response_times": [
+        2.085798978805542,
+        2.0798680782318115
+      ],
+      "cpu_percent": 12.6,
+      "memory_percent": 75.9
+    },
+    "52": {
+      "requests": 2,
+      "response_times": [
+        2.0487046241760254,
+        2.3014464378356934
+      ],
+      "cpu_percent": 8.1,
+      "memory_percent": 75.8
+    },
+    "53": {
+      "requests": 1,
+      "response_times": [
+        2.063697576522827
+      ],
+      "cpu_percent": 5.1,
+      "memory_percent": 75.9
+    },
+    "54": {
+      "requests": 1,
+      "response_times": [
+        2.0992205142974854
+      ],
+      "cpu_percent": 0,
+      "memory_percent": 0
+    },
+    "55": {
+      "requests": 3,
+      "response_times": [
+        2.0560028553009033,
+        2.083043098449707,
+        2.041724443435669
+      ],
+      "cpu_percent": 18.4,
+      "memory_percent": 76.1
+    },
+    "56": {
+      "requests": 1,
+      "response_times": [
+        2.082557439804077
+      ],
+      "cpu_percent": 16.4,
+      "memory_percent": 76.1
+    },
+    "57": {
+      "requests": 1,
+      "response_times": [
+        2.0911178588867188
+      ],
+      "cpu_percent": 12.8,
+      "memory_percent": 76.0
+    },
+    "58": {
+      "requests": 3,
+      "response_times": [
+        2.0836126804351807,
+        2.1311559677124023,
+        2.097294330596924
+      ],
+      "cpu_percent": 15.3,
+      "memory_percent": 76.0
+    },
+    "59": {
+      "requests": 1,
+      "response_times": [
+        2.1325457096099854
+      ],
+      "cpu_percent": 7.3,
+      "memory_percent": 76.1
+    },
+    "61": {
+      "requests": 3,
+      "response_times": [
+        2.071145534515381,
+        2.1244869232177734,
+        2.115269899368286
+      ],
+      "cpu_percent": 0,
+      "memory_percent": 0
+    },
+    "62": {
+      "requests": 1,
+      "response_times": [
+        2.0996196269989014
+      ],
+      "cpu_percent": 0,
+      "memory_percent": 0
+    }
+  },
+  "errors": []
+}
