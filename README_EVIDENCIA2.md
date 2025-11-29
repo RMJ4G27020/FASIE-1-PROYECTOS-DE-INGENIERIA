@@ -137,4 +137,3 @@ cat activity15\quick_test_*.json
 - La evidencia está organizada y localizada en los archivos listados arriba. Cada criterio de la rúbrica tiene al menos un artefacto que lo respalda (documentación SCRUM, listas de historias, logs, índices, UI y reportes de performance).
 - Recomendación: para la máxima puntuación, revisar en orden: `README_SCRUM.md` (metodología), `web_app.py` + `templates/` (interfaz), `data/output/...` (índices y tokens), y `activity15/PERFORMANCE_REPORT.md` (pruebas y capturas).
 
-¿Deseas que haga un pequeño índice HTML/ZIP con los archivos de evidencia listados o que genere un PDF consolidado con las secciones más relevantes para entregar directamente? Puedo hacerlo ahora si quieres.
